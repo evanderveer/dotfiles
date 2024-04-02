@@ -17,7 +17,7 @@ set $mod Mod4
 # is used in the bar {} block below.
 font pango:IBM Plex Mono SmBld 12
 
-exec_always --no-startup-id nitrogen --set-auto ~/.config/bg_images/
+exec_always --no-startup-id nitrogen --set-zoom-fill $HOME/.config/bg_images/$(ls $HOME/.config/bg_images/ | sort -R | head -n 1)
 
 
 # This font is widely installed, provides lots of unicode glyphs, right-to-left
