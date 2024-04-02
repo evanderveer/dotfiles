@@ -3,7 +3,7 @@
 cd $HOME
 TMPDIR=$(mktemp -d -t .)
 
-sudo apt install git gh zsh feh kitty
+sudo apt install git gh zsh feh kitty rofi nitrogen
 
 if ! command -v nvim &>/dev/null; then
 	#Install Neovim
