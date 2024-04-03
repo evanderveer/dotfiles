@@ -3,7 +3,7 @@
 cd $HOME
 TMPDIR=$(mktemp -d -t .)
 
-sudo apt install git gh zsh feh kitty rofi nitrogen
+sudo apt install gh zsh feh kitty rofi nitrogen
 
 if ! command -v nvim &>/dev/null; then
 	#Install Neovim
@@ -13,8 +13,7 @@ if ! command -v nvim &>/dev/null; then
 	make CMAKE
 fi
 
-#Get dotfiles
-git clone https://github.com/evanderveer/dotfiles $HOME/.dotfiles
+#Link dotfiles
 
 cd $HOME
 rm -rf $TMPDIR
