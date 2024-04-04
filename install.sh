@@ -3,7 +3,7 @@
 cd $HOME
 TMPDIR=$(mktemp -d -t .)
 
-sudo apt install gh zsh feh kitty rofi nitrogen
+sudo apt install gh zsh feh kitty rofi nitrogen stow
 
 if ! command -v nvim &>/dev/null; then
 	#Install Neovim
@@ -14,6 +14,9 @@ if ! command -v nvim &>/dev/null; then
 fi
 
 #Link dotfiles
+cd $HOME/.dotfiles/
+stow .
+cd -
 
 cd $HOME
 rm -rf $TMPDIR
