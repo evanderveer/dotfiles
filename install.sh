@@ -21,16 +21,21 @@ stow --adopt .
 git restore .
 cd -
 
+#Copy fonts
 if ! [-d $HOME/.local/share/fonts ]; then
 	mkdir $HOME/.local/share/fonts/
 	cp fonts/* $HOME/.local/share/fonts/
 fi
 
+#Copy rofi themes
 if ! [ -d $HOME/,local/share/rofi/themes ]; then
 	mkdir $HOME/.local/share/rofi/themes/
 	cp rofi/themes/* $HOME/.local/share/rofi/themes
 fi
 
+#Copy wallpapers
+mkdir $HOME/.config/bq_images
+cp wallpapers/* $HOME/.config/bg_images/
+
 cd $HOME
-mkdir .config/bg_images
 rm -rf $TMPDIR
