@@ -12,13 +12,15 @@ if ! command -v nvim &>/dev/null; then
 	git clone https://github.com/neovim/neovim
 	cd neovim
 	make CMAKE_BUILD_TYPE=RelWithDebInfo
-  sudo make install
+	sudo make install
 fi
 
 #Link dotfiles
 cd $HOME/.dotfiles/
-stow .
+stow --adopt .
+git restore .
 cd -
 
 cd $HOME
+mkdir .config/bg_images
 rm -rf $TMPDIR
