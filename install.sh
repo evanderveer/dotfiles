@@ -34,7 +34,7 @@ if ! [ -d $HOME/,local/share/rofi/themes ]; then
 fi
 
 #Copy wallpapers
-mkdir -p $HOME/.config/bq_images
+mkdir -p $HOME/.config/bg_images
 cp wallpapers/* $HOME/.config/bg_images/
 
 cd $HOME
