@@ -3,7 +3,20 @@
 cd $HOME
 TMPDIR=$(mktemp -d -t .)
 
-sudo apt install gh zsh feh kitty rofi nitrogen stow xorg i3 firefox-esr polybar
+sudo apt install \
+	gh \
+	zsh \
+	feh \
+	kitty \
+	rofi \
+	nitrogen \
+	stow \
+	xorg \
+	i3 \
+	firefox-esr \
+	polybar \
+	picom
+
 chsh -s /bin/zsh
 
 if ! command -v nvim &>/dev/null; then
