@@ -2,6 +2,7 @@
 
 cd $HOME
 TMPDIR=$(mktemp -d -t .)
+mkdir $HOME/.local/bin
 
 sudo apt install \
 	gh \

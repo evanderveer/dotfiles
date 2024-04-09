@@ -1,0 +1,10 @@
+2024-04-09 22:25:48.487 [info] Started initializing default profile extensions in extensions installation folder. file:///home/ewout/.vscode/extensions
+2024-04-09 22:25:49.374 [warning] Failed to create default profile extensions manifest in extensions installation folder. file:///home/ewout/.vscode/extensions Unable to create file 'vscode-userdata:/home/ewout/.vscode/extensions/extensions.json' that already exists when overwrite flag is not set
+2024-04-09 22:25:49.374 [info] Completed initializing default profile extensions in extensions installation folder. file:///home/ewout/.vscode/extensions
+2024-04-09 22:25:49.447 [error] [uncaught exception in sharedProcess]: Error: ENOENT: no such file or directory, stat '/home/ewout/.vscode/extensions/extensions.json.vsctmp': EntryNotFound (FileSystemError): Error: ENOENT: no such file or directory, stat '/home/ewout/.vscode/extensions/extensions.json.vsctmp'
+    at r.create (/usr/share/code/resources/app/out/vs/code/node/sharedProcess/sharedProcessMain.js:53:30080)
+    at a (/usr/share/code/resources/app/out/vs/code/node/sharedProcess/sharedProcessMain.js:53:30195)
+    at i.fb (/usr/share/code/resources/app/out/vs/code/node/sharedProcess/sharedProcessMain.js:58:36500)
+    at i.stat (/usr/share/code/resources/app/out/vs/code/node/sharedProcess/sharedProcessMain.js:58:28946)
+    at async $.stat (/usr/share/code/resources/app/out/vs/code/node/sharedProcess/sharedProcessMain.js:58:16092)
+    at async K.sb (/usr/share/code/resources/app/out/vs/code/node/sharedProcess/sharedProcessMain.js:104:108402)
