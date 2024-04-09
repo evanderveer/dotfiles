@@ -16,8 +16,7 @@ sudo apt install \
 	i3 \
 	firefox-esr \
 	polybar \
-	picom \
-	lightdm
+	picom
 
 chsh -s /bin/zsh
 
