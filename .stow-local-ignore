@@ -20,7 +20,7 @@ _darcs
 ^/COPYING
 
 install.sh
-rofi/
-fonts/
-wallpapers/
+/rofi/
+/fonts/
+/wallpapers/
 
