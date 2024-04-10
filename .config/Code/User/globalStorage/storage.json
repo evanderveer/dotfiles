@@ -186,6 +186,10 @@
                                     "label": "&&Settings"
                                 },
                                 {
+                                    "id": "workbench.view.extensions",
+                                    "label": "&&Extensions"
+                                },
+                                {
                                     "id": "workbench.action.openGlobalKeybindings",
                                     "label": "Keyboard Shortcuts"
                                 },
@@ -239,7 +243,8 @@
                     },
                     {
                         "id": "workbench.action.files.revert",
-                        "label": "Re&&vert File"
+                        "label": "Re&&vert File",
+                        "enabled": false
                     },
                     {
                         "id": "workbench.action.closeActiveEditor",
@@ -439,7 +444,8 @@
                                 },
                                 {
                                     "id": "workbench.action.toggleSidebarVisibility",
-                                    "label": "&&Primary Side Bar"
+                                    "label": "&&Primary Side Bar",
+                                    "checked": true
                                 },
                                 {
                                     "id": "workbench.action.toggleAuxiliaryBar",
@@ -649,6 +655,13 @@
                                     "id": "vscode.menubar.separator"
                                 },
                                 {
+                                    "id": "workbench.action.splitEditorInGroup",
+                                    "label": "Split in &&Group"
+                                },
+                                {
+                                    "id": "vscode.menubar.separator"
+                                },
+                                {
                                     "id": "workbench.action.moveEditorToNewWindow",
                                     "label": "&&Move Editor into New Window"
                                 },
@@ -748,8 +761,7 @@
                     },
                     {
                         "id": "editor.action.toggleWordWrap",
-                        "label": "&&Word Wrap",
-                        "enabled": false
+                        "label": "&&Word Wrap"
                     }
                 ]
             },
@@ -757,8 +769,7 @@
                 "items": [
                     {
                         "id": "workbench.action.navigateBack",
-                        "label": "&&Back",
-                        "enabled": false
+                        "label": "&&Back"
                     },
                     {
                         "id": "workbench.action.navigateForward",
@@ -1267,6 +1278,10 @@
                 "label": "Ctrl+,",
                 "userSettingsLabel": "ctrl+,"
             },
+            "workbench.view.extensions": {
+                "label": "Ctrl+Shift+X",
+                "userSettingsLabel": "ctrl+shift+x"
+            },
             "workbench.action.openGlobalKeybindings": {
                 "label": "Ctrl+K Ctrl+S",
                 "isNative": false,
@@ -1428,6 +1443,11 @@
                 "isNative": false,
                 "userSettingsLabel": "ctrl+k ctrl+\\"
             },
+            "workbench.action.splitEditorInGroup": {
+                "label": "Ctrl+K Ctrl+Shift+\\",
+                "isNative": false,
+                "userSettingsLabel": "ctrl+k ctrl+shift+\\"
+            },
             "workbench.action.copyEditorToNewWindow": {
                 "label": "Ctrl+K O",
                 "isNative": false,
@@ -1452,10 +1472,6 @@
             "workbench.view.debug": {
                 "label": "Ctrl+Shift+D",
                 "userSettingsLabel": "ctrl+shift+d"
-            },
-            "workbench.view.extensions": {
-                "label": "Ctrl+Shift+X",
-                "userSettingsLabel": "ctrl+shift+x"
             },
             "workbench.actions.view.problems": {
                 "label": "Ctrl+Shift+M",
@@ -1676,7 +1692,7 @@
             "editorPartMinWidth": 220,
             "titleBarHeight": 0,
             "activityBarWidth": 48,
-            "sideBarWidth": 0,
+            "sideBarWidth": 206,
             "statusBarHeight": 22,
             "windowBorder": false
         }
@@ -1686,9 +1702,9 @@
             "backupPath": "/home/ewout/.config/Code/Backups/1712694342181",
             "uiState": {
                 "mode": 1,
-                "x": 642,
+                "x": 4,
                 "y": 30,
-                "width": 636,
+                "width": 1146,
                 "height": 1126
             }
         },

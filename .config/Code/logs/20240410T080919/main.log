@@ -1,0 +1,7 @@
+2024-04-10 08:09:19.363 [info] update#setState idle
+2024-04-10 08:09:29.352 [error] Unable to resolve your shell environment in a reasonable time. Please review your shell configuration and restart.
+2024-04-10 08:09:29.352 [error] resolving shell environment failed Unable to resolve your shell environment in a reasonable time. Please review your shell configuration and restart.
+2024-04-10 08:09:29.355 [error] ptyHost was unable to resolve shell environment Unable to resolve your shell environment in a reasonable time. Please review your shell configuration and restart.
+2024-04-10 08:09:49.373 [info] update#setState checking for updates
+2024-04-10 08:09:49.417 [info] update#setState idle
+2024-04-10 08:11:02.996 [error] ptyHost was unable to resolve shell environment Unable to resolve your shell environment in a reasonable time. Please review your shell configuration and restart.
