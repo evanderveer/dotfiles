@@ -203,8 +203,8 @@ gaps inner 4px
 gaps outer 0px
 gaps bottom 0px
 
-default_border normal 0
-default_floating_border normal 0
+default_border pixel 0
+default_floating_border pixel 0
 
 # Colors
 # client.<id> border background text indicator child_border

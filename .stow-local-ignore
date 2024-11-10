@@ -19,7 +19,7 @@ _darcs
 ^/LICENSE.*
 ^/COPYING
 
-install.sh
+install*.sh
 /rofi/
 /fonts/
 /wallpapers/
