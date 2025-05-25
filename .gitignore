@@ -3,3 +3,16 @@
 .config/user-dirs.locale
 .config/bg_images/*
 .config/Code/
+
+wsl/.config/gh/
+wsl/.config/user-dirs.dirs
+wsl/.config/user-dirs.locale
+wsl/.config/bg_images/*
+wsl/.config/Code/
+
+i3/.config/gh/
+i3/.config/user-dirs.dirs
+i3/.config/user-dirs.locale
+i3/.config/bg_images/*
+i3/.config/Code/
+
