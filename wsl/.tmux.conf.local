@@ -58,6 +58,10 @@ tmux_conf_new_pane_retain_current_path=true
 #   - disabled (do not modify split-window bindings)
 tmux_conf_new_pane_reconnect_ssh=false
 
+unbind x
+unbind q
+bind x kill-pane
+bind q display-panes
 
 # -- display -------------------------------------------------------------------
 
@@ -70,7 +74,6 @@ tmux_conf_new_pane_reconnect_ssh=false
 # to 'truecolor' or '24bit' or '$ tput colors' answering '16777216'
 # see https://github.com/termstandard/colors
 tmux_conf_24b_colour=auto
-
 
 # -- theming -------------------------------------------------------------------
 

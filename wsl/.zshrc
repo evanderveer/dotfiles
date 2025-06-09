@@ -104,3 +104,12 @@ alias ll='ls -la --color=auto'
 alias grep='grep --color=auto'
 alias vim='nvim'
 alias c='clear'
+
+# >>> juliaup initialize >>>
+
+# !! Contents within this block are managed by juliaup !!
+
+path=('/home/ewout/.juliaup/bin' $path)
+export PATH
+
+# <<< juliaup initialize <<<
