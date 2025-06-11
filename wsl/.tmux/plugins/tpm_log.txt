@@ -1,0 +1,28 @@
+[2025-06-09 13:06:17.105]	List of discovered tpm plugins: Nybkox/tmux-kanagawa
+[2025-06-09 13:06:17.117]	Invoking /home/ewout/.tmux/plugins/tpm/bin/install_plugins
+[2025-06-09 13:06:17.165]	Installing "tmux-kanagawa"
+[2025-06-09 13:06:18.354]	  "tmux-kanagawa" download success
+[2025-06-09 13:06:18.364]	Done.
+
+[2025-06-09 22:36:18.333]	List of discovered tpm plugins: Nybkox/tmux-kanagawa
+[2025-06-09 22:36:18.343]	Invoking /home/ewout/.tmux/plugins/tpm/bin/install_plugins
+[2025-06-09 22:36:18.391]	Already installed "tmux-kanagawa"
+[2025-06-09 22:36:18.402]	Invoking /home/ewout/.tmux/plugins/tpm/bin/update_plugins all
+[2025-06-09 22:36:18.433]	Updating all plugins!
+[2025-06-09 22:36:18.449]	
+[2025-06-09 22:36:19.076]	  "tmux-kanagawa" update success
+[2025-06-09 22:36:19.085]	    | Already up to date.
+[2025-06-09 22:36:19.095]	Invoking /home/ewout/.tmux/plugins/tpm/bin/clean_plugins all
+[2025-06-09 22:36:19.147]	Done.
+
+[2025-06-11 07:36:14.534]	List of discovered tpm plugins: Nybkox/tmux-kanagawa
+[2025-06-11 07:36:14.548]	Invoking /home/ewout/.tmux/plugins/tpm/bin/install_plugins
+[2025-06-11 07:36:14.607]	Already installed "tmux-kanagawa"
+[2025-06-11 07:36:14.621]	Invoking /home/ewout/.tmux/plugins/tpm/bin/update_plugins all
+[2025-06-11 07:36:14.655]	Updating all plugins!
+[2025-06-11 07:36:14.669]	
+[2025-06-11 07:36:15.395]	  "tmux-kanagawa" update success
+[2025-06-11 07:36:15.407]	    | Already up to date.
+[2025-06-11 07:36:15.421]	Invoking /home/ewout/.tmux/plugins/tpm/bin/clean_plugins all
+[2025-06-11 07:36:15.470]	Done.
+
