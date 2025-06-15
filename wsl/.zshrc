@@ -104,6 +104,8 @@ alias ll='ls -la --color=auto'
 alias grep='grep --color=auto'
 alias vim='nvim'
 alias c='clear'
+alias cl='c&&l'
+
 
 # >>> juliaup initialize >>>
 
