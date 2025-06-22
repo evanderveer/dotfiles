@@ -199,7 +199,27 @@ return {
 					},
 				},
 			},
-			julials = {},
+			julials = {
+				cmd = {
+					"julia",
+					"--startup-file=no",
+					"--history-file=no",
+					"-e",
+					[[
+	  using LanguageServer; using Pkg; using SymbolServer;
+	  env_path = dirname(Pkg.Types.Context().env.project_file);
+	  server = LanguageServer.LanguageServerInstance(stdin, stdout, env_path, "");
+	  server.runlinter = true;
+	  run(server);
+				]],
+				},
+				filetypes = { "julia" },
+			},
+			pylsp = {},
+			html = {},
+			htmx = {},
+			cssls = {},
+			tailwindcss = {},
 		}
 
 		-- Ensure the servers and tools above are installed

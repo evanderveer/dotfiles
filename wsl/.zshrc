@@ -105,6 +105,11 @@ alias grep='grep --color=auto'
 alias vim='nvim'
 alias c='clear'
 alias cl='c&&l'
+alias cdl='cd&&l'
+function cdl(){
+    cd "$1" && l;
+}
+# alias flask='python -m flask'
 
 
 # >>> juliaup initialize >>>
